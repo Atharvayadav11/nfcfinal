@@ -27,7 +27,7 @@ app.use('/api',geminiRoute)
 app.use(errorMiddleware);
 
 // MongoDB connection
-mongoose.connect("mongodb+srv://atharvayadav11:ashokvaishali@cluster0.twnwnbu.mongodb.net/NFCDatabase?retryWrites=true&w=majority")
+mongoose.connect("")
   .then(() => console.log('MongoDB connected'))
   .catch(err => console.error('MongoDB connection error:', err));
 
